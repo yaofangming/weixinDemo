@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/main/main"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "光照控制系统",
+    "navigationBarTextStyle": "black"  
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

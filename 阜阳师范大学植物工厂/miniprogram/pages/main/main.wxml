@@ -1,0 +1,76 @@
+<!--pages/main/main.wxml-->
+<view class="img">
+<image  src="../../images/logo.jpg" mode="aspectFit"></image>
+</view>
+
+
+<view class="ShowData">
+    <text class="red">{{colors[0].red}}</text>  
+    <text class="blue">{{red_01}}   %</text>
+    <text class="red">{{colors[0].blue}}</text>
+    <text class="blue">{{blue_01}}   ℃</text>
+    <!--  -->
+</view>
+
+<view class="ShowData">
+    <text class="red">{{colors[0].sun}}</text>    
+    <text class="blue">{{sun_01}}  Lux</text>
+    <text class="red">{{colors[1].red}}</text>     
+    <text class="blue">{{red_02}}  %</text>
+</view>
+
+<view class="ShowData">
+         
+    <text class="red">{{colors[1].blue}}</text>
+    <text class="blue">{{blue_02}}   ℃</text>
+    <text class="red">{{colors[1].sun}}</text>
+    <text class="blue">{{sun_02}}   Lux</text>
+</view>
+<view class="ShowData">
+         
+         <text class="red">{{colors[2].red}}</text>
+         <text class="blue">{{red_03}}   ppm</text>
+         <text class="red">{{colors[2].blue}}</text>
+         <text class="blue">{{blue_03}}   ppm</text>
+     </view>
+
+<view class="ShowData">
+     <text class="red">{{colors[2].sun}}{{}}</text>
+    <text class="blue">{{sun_03}}  ℃</text>    
+    <text class="red">{{colors[3].red}}</text>
+    <text class="blue">{{red_04}}  %</text> 
+</view>
+
+<view class="ShowData">
+       
+    <text class="red">{{colors[3].blue}}</text>
+    <text class="blue">{{blue_04}}  %</text> 
+    <text class="red">{{colors[3].sun}}</text>
+    <text class="blue">{{sun_04}}  us/cm</text> 
+</view>
+<!--  -->
+<view class="ShowData">
+    <text class="red">{{colors[4].red}}</text> 
+    <text class="blue">{{red_05}}  ℃</text>     
+    <text class="red">{{colors[4].blue}}</text>
+    <text class="blue">{{blue_05}}  %</text> 
+    
+</view>
+<view class="ShowData">
+    <text class="red">{{colors[4].sun}}</text> 
+    <text class="blue">{{sun_05}}  us/cm</text>     
+    <text class="red">{{colors[5].red}}</text> 
+    <text class="blue">{{red_06}}  PH</text> 
+</view>
+<view class="ShowData">    
+    <text class="red">{{colors[5].blue}}</text>
+    <text class="blue">{{blue_06}}  PH</text> 
+    <text class="red">{{colors[5].sun}}</text>
+    <text class="blue">{{sun_06}}  %</text> 
+</view>
+<view class="ShowData">
+    <text class="red">{{colors[6].red}}</text> 
+    <text class="blue">{{red_07}}  ℃</text>     
+    <text class="red">{{colors[6].blue}}</text>
+    <text class="blue">{{blue_07}}  %</text> 
+</view>

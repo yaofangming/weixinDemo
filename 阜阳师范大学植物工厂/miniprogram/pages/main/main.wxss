@@ -1,0 +1,37 @@
+/* pages/main/main.wxss */
+.img{
+margin: 0,0,0,0;
+width: 1000rpx;
+height: 360rpx;
+}
+.img image{
+  width: 770rpx;
+  height: 345rpx;
+}
+.ShowData{
+  display: block;
+  margin-top: 10rpx;
+  margin-bottom:30rpx;
+  font-size: 26rpx;
+  display: flex;
+  /*row 横向  column 列表  */
+  flex-direction: row;
+
+
+}
+ .red{
+  color: red;
+  padding-left: 15rpx;
+  width: 603rpx;
+ 
+}
+ .blue{
+  color: blue;
+  
+  width: 360rpx;
+}
+ 
+.guangzhao{
+  padding-left: 30rpx;
+
+}
